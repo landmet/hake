@@ -1,15 +1,15 @@
 local SkyWRTH = {}
 
-SkyWRTH.optionEnable = Menu.AddOption({ "Hero Specific","Skywrath Mage" }, "Enabled", "")
+SkyWRTH.optionEnable = Menu.AddOption({ "Hero Specific","Skywrath Mage" }, "Enabled", "Supported Items: veil, hex, eblade, orchid, refresher, bloodthorn. Supported Abilitys: All")
 SkyWRTH.optionKey = Menu.AddKeyOption({ "Hero Specific","Skywrath Mage" }, "Combo Key", Enum.ButtonCode.KEY_SPACE)
 
 function SkyWRTH.OnUpdate()
     if not Menu.IsEnabled(SkyWRTH.optionEnable) then return true end
 
-    SkyWRTH.AbilityCombo()
+    SkyWRTH.ITABcombo()
 end
 
-function SkyWRTH.AbilityCombo()
+function SkyWRTH.ITABcombo()
     if not Menu.IsKeyDown(SkyWRTH.optionKey) then return end
 
     local myHero = Heroes.GetLocal()
