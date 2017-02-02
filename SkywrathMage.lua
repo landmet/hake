@@ -1,7 +1,7 @@
 local SkyWRTH = {}
 
 SkyWRTH.optionEnable = Menu.AddOption({ "Hero Specific","Skywrath Mage" }, "Enabled", "Supported Items: veil, hex, eblade, orchid, refresher, bloodthorn. Supported Abilitys: All")
-SkyWRTH.optionKey = Menu.AddKeyOption({ "Hero Specific","Skywrath Mage" }, "Combo Key", Enum.ButtonCode.KEY_SPACE)
+SkyWRTH.optionKey = Menu.AddKeyOption({ "Hero Specific","Skywrath Mage"}, "Fist Chain Key", Enum.ButtonCode.KEY_P)
 SkyWRTH.optionEnableVeil = Menu.AddOption({ "Hero Specific","Skywrath Mage" }, "Use Item Veil Of Discord", "")
 SkyWRTH.optionEnableHex = Menu.AddOption({ "Hero Specific","Skywrath Mage" }, "Use Item Scythe Of Vyse", "")
 SkyWRTH.optionEnableBloth = Menu.AddOption({ "Hero Specific","Skywrath Mage" }, "Use Item Bloodthorn ", "")
